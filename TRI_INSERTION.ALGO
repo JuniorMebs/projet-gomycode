@@ -1,0 +1,8 @@
+PROCEDURE tri_inserttion(Tab a[1:N])
+VAR
+i : INTEGER
+BEGIN
+    FOR i FROM 2 TO n STEP step  DO
+        a[i] := a[1:i-1];
+    END_FOR
+END
